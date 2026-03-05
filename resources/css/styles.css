@@ -1,0 +1,55 @@
+h1{
+    text-align: center;
+}
+
+.table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table-bordered th, .table-bordered td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+a{
+    margin-right: 20px;
+    
+}
+
+.btn {
+    background-color: #0022ff;
+    border-color: #0022ff;
+    color: white;
+}
+
+.btn:hover {
+    background-color: #008cff;
+    border-color: #008cff;
+    color: white;
+}
+
+.contenedor-principal {
+    min-height: 100vh;        
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;   
+}
+
+.contenedor {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #0000002a;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.488);
+}
+
+.center {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
